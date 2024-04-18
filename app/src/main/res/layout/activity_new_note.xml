@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#195D03DA"
+    android:orientation="vertical"
+    tools:context=".NewNoteActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="542dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_corner"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <EditText
+            android:id="@+id/notetitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#195D03DA"
+            android:hint="Titulo de la nota"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/notecontent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#195D03DA"
+            android:gravity="top"
+            android:hint=""
+            android:lines="25"
+            android:padding="10dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="155dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:text="Guardar nota" />
+</LinearLayout>
+
+
+
